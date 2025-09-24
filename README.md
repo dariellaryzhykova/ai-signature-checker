@@ -16,7 +16,7 @@ An AI **workflow automation** that scans Google Drive for QA PDFs, sends them to
 ---
 
 ## 🧩 Architecture
-- **Google Drive** → files live in `System/QA/Inspections/2025 Inspection/[Lot Number]/…`
+- **Google Drive**
 - **Google Apps Script** → orchestrates scan + calls Document AI + outputs
 - **Document AI (Form Parser)** → parses tables and text
 - **Gmail / Slack** → notifications
@@ -42,10 +42,6 @@ An AI **workflow automation** that scans Google Drive for QA PDFs, sends them to
    - **Document AI API**
    - **Drive API** (for REST fallback)
 3. Create a **Document AI processor** (Location: `us`, Type: *Form Parser*)  
-4. Note your:
-   - **Project ID** (e.g., `ai-qa-signature-checker`)
-   - **Project Number**
-   - **Processor ID** (e.g., `5deea843de258b6a`)
 
 ### 2) Link Apps Script to the Cloud project
 - Apps Script → **Project Settings** → **Google Cloud Platform (GCP) Project** → **Change project** → paste **Project Number**.
