@@ -1,6 +1,6 @@
 # Signature Checker (Google Apps Script + Document AI)
 
-An AI **workflow automation** that scans Google Drive for QA PDFs, sends them to **Google Document AI**, extracts tables, and verifies whether **Quality/QA signatures** are present. Results can be emailed and/or posted to Slack.
+An AI **workflow automation** that scans Google Drive for PDFs(OCR formats), sends them to **Google Document AI**, extracts tables, and verifies whether **Signatures** are present. Results can be emailed and/or posted to Slack.
 
 > This is an AI-powered **workflow**, not a fully autonomous agent. It follows your rules, reliably.
 
