@@ -1,4 +1,4 @@
-# Quality Signature Checker (Google Apps Script + Document AI)
+# Signature Checker (Google Apps Script + Document AI)
 
 An AI **workflow automation** that scans Google Drive for QA PDFs, sends them to **Google Document AI**, extracts tables, and verifies whether **Quality/QA signatures** are present. Results can be emailed and/or posted to Slack.
 
